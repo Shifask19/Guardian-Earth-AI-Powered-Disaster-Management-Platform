@@ -27,7 +27,7 @@ const Chatbot = () => {
     const initAI = async () => {
       try {
         // Use your API key - you can also store it in .env as REACT_APP_GEMINI_API_KEY
-        const apiKey = process.env.REACT_APP_GEMINI_API_KEY || 'AIzaSyBqKT7W8vYx9xGxKxKxKxKxKxKxKxKxKxK'; // Replace with your key
+        const apiKey = process.env.REACT_APP_GEMINI_API_KEY ||'' ; // Replace with your key
         genAI.current = new GoogleGenerativeAI(apiKey);
         setAiReady(true);
       } catch (error) {
