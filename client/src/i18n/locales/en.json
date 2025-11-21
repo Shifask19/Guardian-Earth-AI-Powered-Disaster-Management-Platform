@@ -1,0 +1,102 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "map": "Map",
+    "alerts": "Alerts",
+    "volunteers": "Volunteers",
+    "donations": "Donations",
+    "news": "News",
+    "chatbot": "AI Assistant",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "profile": "Profile",
+    "settings": "Settings"
+  },
+  "home": {
+    "title": "Guardian Earth",
+    "subtitle": "AI-powered disaster management and resilience platform that helps people predict, prepare, protect, and respond — all from one integrated system.",
+    "getStarted": "Get Started",
+    "signIn": "Sign In",
+    "features": {
+      "prediction": "AI-Based Disaster Prediction",
+      "predictionDesc": "Detects floods, cyclones, and landslides in advance using advanced AI models",
+      "map": "Interactive Map",
+      "mapDesc": "Displays hazards, shelters, and safe routes in real-time",
+      "alerts": "Geo-Targeted Alerts",
+      "alertsDesc": "Sends timely notifications in local languages based on your location",
+      "chatbot": "AI Chatbot Assistance",
+      "chatbotDesc": "Offers instant help and safety guidance 24/7",
+      "volunteers": "Victim Volunteer Hub",
+      "volunteersDesc": "Connects those in need with nearby helpers and volunteers",
+      "donations": "Relief Donation Management",
+      "donationsDesc": "Tracks donations transparently with blockchain technology"
+    }
+  },
+  "dashboard": {
+    "welcome": "Welcome back",
+    "subtitle": "Stay informed and prepared with your personalized disaster management dashboard",
+    "nearbyDisasters": "Nearby Disasters",
+    "activeAlerts": "Active Alerts",
+    "helpRequests": "Help Requests",
+    "preparednessScore": "Preparedness Score",
+    "quickActions": "Quick Actions",
+    "reportEmergency": "Report Emergency",
+    "findVolunteers": "Find Volunteers",
+    "makeDonation": "Make Donation"
+  },
+  "alerts": {
+    "title": "Emergency Alerts",
+    "liveAlerts": "Live Alerts",
+    "recentAlerts": "Recent Alerts",
+    "noAlerts": "No alerts in your area. Stay safe!",
+    "markAsRead": "Mark as read",
+    "viewActions": "View Action Items",
+    "severity": {
+      "critical": "Critical",
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low"
+    }
+  },
+  "news": {
+    "title": "Disaster News & Updates",
+    "breaking": "Breaking News",
+    "latest": "Latest Updates",
+    "global": "Global",
+    "local": "Local",
+    "readMore": "Read More",
+    "source": "Source",
+    "timeAgo": "{{time}} ago"
+  },
+  "chatbot": {
+    "title": "AI Emergency Assistant",
+    "placeholder": "Ask me about emergency preparedness...",
+    "typing": "Guardian AI is typing...",
+    "emergency": "🚨 For immediate life-threatening emergencies, call 911 directly",
+    "quickActions": {
+      "emergency": "Emergency Help",
+      "safety": "Safety Tips",
+      "shelter": "Find Shelter",
+      "firstAid": "First Aid"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "close": "Close",
+    "submit": "Submit",
+    "search": "Search",
+    "filter": "Filter",
+    "all": "All",
+    "none": "None",
+    "yes": "Yes",
+    "no": "No"
+  }
+}

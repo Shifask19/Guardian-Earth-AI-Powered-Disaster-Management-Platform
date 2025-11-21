@@ -1,0 +1,102 @@
+{
+  "nav": {
+    "dashboard": "Panel",
+    "map": "Mapa",
+    "alerts": "Alertas",
+    "volunteers": "Voluntarios",
+    "donations": "Donaciones",
+    "news": "Noticias",
+    "chatbot": "Asistente IA",
+    "login": "Iniciar Sesión",
+    "register": "Registrarse",
+    "logout": "Cerrar Sesión",
+    "profile": "Perfil",
+    "settings": "Configuración"
+  },
+  "home": {
+    "title": "Guardian Earth",
+    "subtitle": "Plataforma de gestión de desastres y resistencia impulsada por IA que ayuda a las personas a predecir, preparar, proteger y responder, todo desde un sistema integrado.",
+    "getStarted": "Comenzar",
+    "signIn": "Iniciar Sesión",
+    "features": {
+      "prediction": "Predicción de Desastres con IA",
+      "predictionDesc": "Detecta inundaciones, ciclones y deslizamientos de tierra con anticipación usando modelos de IA avanzados",
+      "map": "Mapa Interactivo",
+      "mapDesc": "Muestra peligros, refugios y rutas seguras en tiempo real",
+      "alerts": "Alertas Geo-dirigidas",
+      "alertsDesc": "Envía notificaciones oportunas en idiomas locales basadas en tu ubicación",
+      "chatbot": "Asistencia de Chatbot IA",
+      "chatbotDesc": "Ofrece ayuda instantánea y orientación de seguridad 24/7",
+      "volunteers": "Centro de Voluntarios",
+      "volunteersDesc": "Conecta a quienes necesitan ayuda con voluntarios cercanos",
+      "donations": "Gestión de Donaciones",
+      "donationsDesc": "Rastrea donaciones de manera transparente con tecnología blockchain"
+    }
+  },
+  "dashboard": {
+    "welcome": "Bienvenido de nuevo",
+    "subtitle": "Mantente informado y preparado con tu panel personalizado de gestión de desastres",
+    "nearbyDisasters": "Desastres Cercanos",
+    "activeAlerts": "Alertas Activas",
+    "helpRequests": "Solicitudes de Ayuda",
+    "preparednessScore": "Puntuación de Preparación",
+    "quickActions": "Acciones Rápidas",
+    "reportEmergency": "Reportar Emergencia",
+    "findVolunteers": "Encontrar Voluntarios",
+    "makeDonation": "Hacer Donación"
+  },
+  "alerts": {
+    "title": "Alertas de Emergencia",
+    "liveAlerts": "Alertas en Vivo",
+    "recentAlerts": "Alertas Recientes",
+    "noAlerts": "No hay alertas en tu área. ¡Mantente seguro!",
+    "markAsRead": "Marcar como leído",
+    "viewActions": "Ver Elementos de Acción",
+    "severity": {
+      "critical": "Crítico",
+      "high": "Alto",
+      "medium": "Medio",
+      "low": "Bajo"
+    }
+  },
+  "news": {
+    "title": "Noticias y Actualizaciones de Desastres",
+    "breaking": "Noticias de Última Hora",
+    "latest": "Últimas Actualizaciones",
+    "global": "Global",
+    "local": "Local",
+    "readMore": "Leer Más",
+    "source": "Fuente",
+    "timeAgo": "hace {{time}}"
+  },
+  "chatbot": {
+    "title": "Asistente de Emergencia IA",
+    "placeholder": "Pregúntame sobre preparación para emergencias...",
+    "typing": "Guardian IA está escribiendo...",
+    "emergency": "🚨 Para emergencias que amenacen la vida inmediatamente, llama al 911 directamente",
+    "quickActions": {
+      "emergency": "Ayuda de Emergencia",
+      "safety": "Consejos de Seguridad",
+      "shelter": "Encontrar Refugio",
+      "firstAid": "Primeros Auxilios"
+    }
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "view": "Ver",
+    "close": "Cerrar",
+    "submit": "Enviar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "all": "Todo",
+    "none": "Ninguno",
+    "yes": "Sí",
+    "no": "No"
+  }
+}

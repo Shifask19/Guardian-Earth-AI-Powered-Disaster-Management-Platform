@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "dashboard": "Tableau de bord",
+    "map": "Carte",
+    "alerts": "Alertes",
+    "volunteers": "Bénévoles",
+    "donations": "Dons",
+    "news": "Actualités",
+    "chatbot": "Assistant IA",
+    "login": "Connexion",
+    "register": "S'inscrire",
+    "logout": "Déconnexion",
+    "profile": "Profil",
+    "settings": "Paramètres"
+  },
+  "home": {
+    "title": "Guardian Earth",
+    "subtitle": "Plateforme de gestion des catastrophes et de résilience alimentée par l'IA qui aide les gens à prédire, préparer, protéger et répondre - le tout à partir d'un système intégré.",
+    "getStarted": "Commencer",
+    "signIn": "Se connecter"
+  },
+  "dashboard": {
+    "welcome": "Bon retour",
+    "subtitle": "Restez informé et préparé avec votre tableau de bord personnalisé de gestion des catastrophes"
+  },
+  "news": {
+    "title": "Actualités et Mises à jour sur les Catastrophes",
+    "breaking": "Dernières Nouvelles",
+    "latest": "Dernières Mises à jour",
+    "global": "Global",
+    "local": "Local",
+    "readMore": "Lire Plus",
+    "source": "Source",
+    "timeAgo": "il y a {{time}}"
+  },
+  "chatbot": {
+    "title": "Assistant d'Urgence IA",
+    "placeholder": "Demandez-moi des conseils de préparation aux urgences...",
+    "typing": "Guardian IA tape...",
+    "emergency": "🚨 Pour les urgences vitales immédiates, appelez directement le 911"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "cancel": "Annuler",
+    "save": "Sauvegarder",
+    "close": "Fermer"
+  }
+}

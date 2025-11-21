@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-gradient-to-br from-slate-50 via-blue-50 to-emerald-50 text-gray-900;
+    background-attachment: fixed;
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  /* Stunning Button Styles */
+  .btn-primary {
+    @apply relative bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 
+           text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 
+           shadow-lg hover:shadow-xl hover:scale-105 active:scale-95;
+    overflow: hidden;
+  }
+  
+  .btn-primary::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+    transition: left 0.5s;
+  }
+  
+  .btn-primary:hover::before {
+    left: 100%;
+  }
+  
+  .btn-secondary {
+    @apply bg-white hover:bg-gray-50 text-gray-800 font-semibold py-3 px-6 rounded-xl 
+           transition-all duration-300 shadow-md hover:shadow-lg border-2 border-gray-200 
+           hover:border-emerald-400 hover:scale-105 active:scale-95;
+  }
+  
+  .btn-danger {
+    @apply relative bg-gradient-to-r from-red-500 to-rose-600 hover:from-red-600 hover:to-rose-700 
+           text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 
+           shadow-lg hover:shadow-xl hover:scale-105 active:scale-95;
+  }
+  
+  /* Glass-morphism Card */
+  .card {
+    @apply bg-white/80 backdrop-blur-xl rounded-2xl shadow-xl border border-white/20 p-6 
+           transition-all duration-300 hover:shadow-2xl hover:scale-[1.02];
+    background: linear-gradient(135deg, rgba(255,255,255,0.9), rgba(255,255,255,0.7));
+  }
+  
+  .card-glass {
+    @apply backdrop-blur-md bg-white/30 rounded-2xl shadow-2xl border border-white/40 p-6 
+           transition-all duration-300 hover:bg-white/40;
+  }
+  
+  /* Alert Styles with Animations */
+  .alert-critical {
+    @apply bg-gradient-to-r from-red-50 to-rose-50 border-red-200 text-red-900 
+           border-l-4 border-l-red-600 rounded-lg p-4 shadow-lg animate-pulse-slow;
+  }
+  
+  .alert-high {
+    @apply bg-gradient-to-r from-orange-50 to-amber-50 border-orange-200 text-orange-900 
+           border-l-4 border-l-orange-600 rounded-lg p-4 shadow-lg;
+  }
+  
+  .alert-medium {
+    @apply bg-gradient-to-r from-blue-50 to-cyan-50 border-blue-200 text-blue-900 
+           border-l-4 border-l-blue-600 rounded-lg p-4 shadow-md;
+  }
+  
+  .alert-low {
+    @apply bg-gradient-to-r from-green-50 to-emerald-50 border-green-200 text-green-900 
+           border-l-4 border-l-green-600 rounded-lg p-4 shadow-md;
+  }
+  
+  /* Real-time Status Badge */
+  .status-badge {
+    @apply inline-flex items-center gap-2 px-4 py-2 rounded-full font-semibold text-sm
+           bg-gradient-to-r from-emerald-500 to-teal-500 text-white shadow-lg;
+    animation: pulse-glow 2s ease-in-out infinite;
+  }
+  
+  .status-dot {
+    @apply w-2 h-2 rounded-full bg-white;
+    animation: blink 1.5s ease-in-out infinite;
+  }
+  
+  /* Gradient Text */
+  .gradient-text {
+    @apply bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 bg-clip-text text-transparent font-bold;
+  }
+  
+  /* Floating Animation */
+  .float {
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  /* Shimmer Effect */
+  .shimmer {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+  }
+  
+  /* Input Styles */
+  .input-modern {
+    @apply w-full px-4 py-3 rounded-xl border-2 border-gray-200 
+           focus:border-emerald-500 focus:ring-4 focus:ring-emerald-100 
+           transition-all duration-300 bg-white/80 backdrop-blur-sm;
+  }
+  
+  /* Real-time Clock Container */
+  .clock-container {
+    @apply bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-600 
+           text-white rounded-2xl p-6 shadow-2xl;
+    animation: gradient-shift 5s ease infinite;
+    background-size: 200% 200%;
+  }
+  
+  /* Notification Badge */
+  .notification-badge {
+    @apply absolute -top-1 -right-1 bg-red-500 text-white text-xs font-bold 
+           rounded-full w-5 h-5 flex items-center justify-center
+           animate-bounce shadow-lg;
+  }
+  
+  /* Loading Spinner */
+  .spinner {
+    @apply w-8 h-8 border-4 border-emerald-200 border-t-emerald-600 rounded-full;
+    animation: spin 1s linear infinite;
+  }
+  
+  /* Hero Section */
+  .hero-gradient {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #4facfe 75%, #00f2fe 100%);
+    background-size: 400% 400%;
+    animation: gradient-shift 15s ease infinite;
+  }
+}
+
+/* Custom Animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes gradient-shift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(16, 185, 129, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(16, 185, 129, 0.8);
+  }
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes slideInFromBottom {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Custom scrollbar with gradient */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100 rounded-full;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gradient-to-b from-emerald-400 to-teal-500 rounded-full;
+  transition: all 0.3s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply from-emerald-500 to-teal-600;
+}
+
+/* Utility Classes */
+.animate-slide-in-bottom {
+  animation: slideInFromBottom 0.5s ease-out;
+}
+
+.animate-slide-in-right {
+  animation: slideInFromRight 0.5s ease-out;
+}
+
+/* Hover Effects */
+.hover-lift {
+  @apply transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl;
+}
+
+.hover-glow {
+  @apply transition-all duration-300;
+}
+
+.hover-glow:hover {
+  box-shadow: 0 0 30px rgba(16, 185, 129, 0.6);
+}
+
+/* Glass Effect */
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Neon Text Effect */
+.neon-text {
+  text-shadow: 0 0 10px rgba(16, 185, 129, 0.8),
+               0 0 20px rgba(16, 185, 129, 0.6),
+               0 0 30px rgba(16, 185, 129, 0.4);
+}
