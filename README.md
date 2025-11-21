@@ -6,6 +6,8 @@
 
 
 > A comprehensive disaster management and resilience platform that helps people predict, prepare, protect, and respond to disasters using AI technology.
+<img width="1903" height="917" alt="image" src="https://github.com/user-attachments/assets/779cbbf2-a5e1-4543-be7d-2e565bf6624b" />
+
 
 ## 🎯 Overview
 
@@ -351,3 +353,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 *Last updated: November 2024*#
+
