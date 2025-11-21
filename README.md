@@ -330,16 +330,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 *Guardian Earth - Predict, Prepare, Protect, Respond* 🌍🛡️
 
-## 📚 Documentation
-
-- [API Setup Guide](AI_SETUP_GUIDE.md)
-- [CSS Features](CSS_FEATURES.md)
-- [News Integration](REAL_NEWS_SETUP.md)
-- [AI Preparedness](AI_PREPAREDNESS_READY.md)
-- [Quick Start](CHATBOT_QUICK_START.txt)
-
----
-
-*Last updated: November 2024*#
 
 
