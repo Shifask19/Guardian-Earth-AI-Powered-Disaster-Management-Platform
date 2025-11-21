@@ -3,7 +3,7 @@
 [![React](https://img.shields.io/badge/React-18.2.0-blue.svg)](https://reactjs.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-6.0+-brightgreen.svg)](https://mongodb.com/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 
 > A comprehensive disaster management and resilience platform that helps people predict, prepare, protect, and respond to disasters using AI technology.
 
@@ -350,7 +350,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-*Last updated: November 2024*#   G u a r d i a n - E a r t h - A I - P o w e r e d - D i s a s t e r - M a n a g e m e n t - P l a t f o r m  
- #   G u a r d i a n - E a r t h - A I - P o w e r e d - D i s a s t e r - M a n a g e m e n t - P l a t f o r m  
- #   G u a r d i a n - E a r t h - A I - P o w e r e d - D i s a s t e r - M a n a g e m e n t - P l a t f o r m  
- 
+*Last updated: November 2024*#
